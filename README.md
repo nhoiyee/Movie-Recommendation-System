@@ -7,7 +7,8 @@ Final Report:
 
 📌Objective
 
-The objective of this project was to build a movie recommendation system using the MovieLens 100k dataset. The system uses both collaborative filtering and content-based filtering techniques to generate 
+The objective of this project was to build a movie recommendation system using the MovieLens 100k dataset. 
+The system uses both collaborative filtering and content-based filtering techniques to generate 
 And suggest relevant movies for users. Users can interact with the model via a simple frontend interface.
 
 Dataset used the MovieLens dataset: ml-100k
@@ -17,7 +18,9 @@ Dataset used the MovieLens dataset: ml-100k
 Step 1: Data Collection & Pre-processing
 
 Dataset Preparation
+
 ● Downloaded the MovieLens 100k dataset
+
 ● Loaded the dataset using Pandas. 
 
 
@@ -59,6 +62,7 @@ Step 4: Model Evaluation
 
 
 Step 5: Model Deployment
+
 Deploy as an API
 
 ● Converted the recommendation model into a Flask/FastAPI backend API with endpoints for recommendations.
@@ -76,6 +80,7 @@ Deploy as an API
 
 
 🔧 Tools, methods, or technologies 
+
 Dataset
 MovieLens 100k
 
@@ -89,6 +94,7 @@ Backend
 Flask / FastAPI
 python recommendation_flask.py
 http://localhost:5000/recommend?user_id=1
+
 Frontend 
 Streamlit 
 run streamlit_app.py
@@ -115,10 +121,15 @@ By combining collaborative and content-based filtering, the system was able to s
 
 
 🎖 References
+
 •	MovieLens Dataset: https://grouplens.org/datasets/movielens/
+
 •	Implicit Library (ALS): https://github.com/benfred/implicit
+
 •	Scikit-learn: https://scikit-learn.org/
+
 •	Streamlit: https://streamlit.io/
+
 •	Flask: https://flask.palletsprojects.com/
 
 
