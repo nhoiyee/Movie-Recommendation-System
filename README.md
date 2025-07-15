@@ -2,6 +2,7 @@
 Develop a recommendation engine using the MovieLens dataset to suggest relevant movies to users. Implement both collaborative filtering and content-based filtering, evaluate their performance, and deploy the model as an API with a simple frontend.
 
 Final Report:
+
 ✨Assignment: AI-Powered Movie Recommendation System
 
 📌Objective
@@ -40,6 +41,7 @@ Step 2: Exploratory Data Analysis (EDA)
 Step 3: Model Development
 
 ● Built a Content-Based Filtering model using TF-IDF vectors of movie genres/titles.
+
 ● Implemented Collaborative Filtering using the Alternating Least Squares (ALS) algorithm from the implicit library.
 
 ● Trained the model on user-movie interactions (ratings). 
@@ -50,7 +52,9 @@ Step 4: Model Evaluation
 ● Compared the performance of collaborative filtering and content-based filtering techniques. 
 
 ● Used metrics like Root Mean Square Error (RMSE), Precision, Recall, or Mean Absolute Error (MAE) to evaluate model performance. 
+
 ● Used Mean Absolute Error (MAE) to evaluate prediction accuracy.
+
 ● Performed cross-validation on user-item interactions to test model generalization.
 
 
@@ -65,7 +69,9 @@ Deploy as an API
 
 
 📈  Key findings 
+
 ● Hybrid approach (combining both methods) provided the most balanced recommendations.
+
 ● Achieved a mean MAE of approximately 0.72 on validation data, which is good and competitive.
 
 
@@ -94,12 +100,17 @@ Python
 🧗 Challenges & Solutions
 
 ● Cold Start Problem: Collaborative filtering requires prior user interaction. Solved using content-based filtering
+
 ● Data sparsity: Ratings data is sparse; used matrix factorization with ALS to handle it.
+
 ● Deployment Compatibility: Ensured smooth communication between frontend and backend using CORS and RESTful API design.
+
 ● User Feedback: Created a responsive UI using Streamlit for users, enables easy interaction with the model.
 
 👓 Conclusion 
+
 The project successfully implemented and deployed an AI-powered recommendation system. 
+
 By combining collaborative and content-based filtering, the system was able to suggest relevant movies to users. 
 
 
