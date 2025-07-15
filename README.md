@@ -1,12 +1,11 @@
 # Movie-Recommendation-System
 Develop a recommendation engine using the MovieLens dataset to suggest relevant movies to users. Implement both collaborative filtering and content-based filtering, evaluate their performance, and deploy the model as an API with a simple frontend.
 
-Ng Hoi Yee
-
 Final Report:
 ✨Assignment: AI-Powered Movie Recommendation System
 
 📌Objective
+
 The objective of this project was to build a movie recommendation system using the MovieLens 100k dataset. The system uses both collaborative filtering and content-based filtering techniques to generate 
 And suggest relevant movies for users. Users can interact with the model via a simple frontend interface.
 
@@ -102,8 +101,6 @@ Python
 👓 Conclusion 
 The project successfully implemented and deployed an AI-powered recommendation system. 
 By combining collaborative and content-based filtering, the system was able to suggest relevant movies to users. 
-
-
 
 
 🎖 References
